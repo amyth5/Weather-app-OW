@@ -271,3 +271,16 @@ h1{
 .error-container.active{
     display: flex;
 }
+@media only screen and (max-width: 767px) {
+    .parameter-container{
+        
+        flex-wrap: nowrap;
+        
+       
+    }
+    .parameter-container p{
+        font-size: medium;
+
+    }
+
+}
